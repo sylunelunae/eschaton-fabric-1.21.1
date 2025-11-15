@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "biting=false": { "model": "eschaton:block/sculk_jaw" },
+    "biting=true":  { "model": "eschaton:block/sculk_jaw_biting" }
+  }
+}

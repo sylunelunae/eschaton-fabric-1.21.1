@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=true":  { "model": "eschaton:block/amethyst_lantern_hanging" },
+    "hanging=false": { "model": "eschaton:block/amethyst_lantern" }
+  }
+}

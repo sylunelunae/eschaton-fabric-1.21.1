@@ -1,0 +1,28 @@
+{
+  "item.eschaton.fallium_key": "Fallium Key",
+  "item.eschaton.fallium_pebbles": "Fallium Pebbles",
+  "item.eschaton.fallium_plating":"Fallium Plating",
+  "item.eschaton.elixir_bottle": "Elixir Bottle",
+  "item.eschaton.asystole_bloom": "Asystole Bloom",
+
+  "block.eschaton.lamp_block": "Lamp",
+  "block.eschaton.soul_lamp_block": "Soul Lamp",
+  "block.eschaton.amethyst_lamp_block": "Amethyst Lamp",
+  "block.eschaton.amethyst_lantern": "Amethyst Lantern",
+  "block.eschaton.redstone_powered_lamp_block": "Redstone Powered Lamp",
+  "block.eschaton.redstone_powered_lantern": "Redstone Powered Lamp",
+  "block.eschaton.crimson_shroom_lamp_block": "Crimson Shroom Lamp",
+  "block.eschaton.warped_shroom_lamp_block": "Warped Shroom Lamp",
+  "block.eschaton.fallium_ore_block": "Fallium Ore",
+  "block.eschaton.sculk_jaw": "Sculk Jaw",
+  "block.eschaton.mossy_deepslate_bricks": "Mossy Deepslate Bricks",
+  "block.eschaton.mossy_chiseled_deepslate": "Mossy Chiseled Deepslate",
+  "block.eschaton.deepslate_pillar": "Deepslate Pillar",
+  "block.eschaton.mossy_cobbled_deepslate": "Mossy Cobbled Deepslate",
+
+  "death.attack.sculk_bite": "%1$s was devoured by sculk",
+
+  "effect.eschaton.systolic_stillness": "Systolic Stillness",
+
+  "itemgroups.eschaton.eschaton_additions": "Eschaton Additions"
+}

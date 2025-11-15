@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=true":  { "model": "eschaton:block/redstone_powered_lantern_hanging" },
+    "hanging=false": { "model": "eschaton:block/redstone_powered_lantern" }
+  }
+}
