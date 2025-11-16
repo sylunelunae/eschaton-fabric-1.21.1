@@ -96,7 +96,7 @@ public class ModBlocks {
                         .strength(1.5f)
                         .sounds(BlockSoundGroup.LANTERN)
                         .luminance(state -> 14)
-                        .nonOpaque()));
+                ));
 
         REDSTONE_POWERED_LANTERN = registerBlock("redstone_powered_lantern",
                 new LanternBlock(AbstractBlock.Settings.create()
@@ -105,6 +105,7 @@ public class ModBlocks {
                         .sounds(BlockSoundGroup.LANTERN)
                         .luminance(state -> 12)
                         .solid()) {
+
                     @Override
                     public boolean emitsRedstonePower(BlockState state) {
                         return true;
