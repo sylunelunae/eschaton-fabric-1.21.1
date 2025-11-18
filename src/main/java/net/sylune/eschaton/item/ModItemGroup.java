@@ -31,11 +31,30 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DEEPSLATE_PILLAR);
                         entries.add(ModBlocks.FALLIUM_ORE_BLOCK);
 
+                        entries.add(ModBlocks.WHITE_COMPRESSED_WOOL);
+                        entries .add(ModBlocks.RED_COMPRESSED_WOOL);
+                        entries   .add(ModBlocks.ORANGE_COMPRESSED_WOOL);
+                        entries .add(ModBlocks.YELLOW_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.GREEN_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.LIME_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.LIGHT_BLUE_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.BLUE_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.CYAN_COMPRESSED_WOOL);
+                        entries .add(ModBlocks.PURPLE_COMPRESSED_WOOL);
+                        entries .add(ModBlocks.MAGENTA_COMPRESSED_WOOL);
+                        entries .add(ModBlocks.PINK_COMPRESSED_WOOL);
+                        entries .add(ModBlocks.BROWN_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.GRAY_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.LIGHT_GRAY_COMPRESSED_WOOL);
+                        entries  .add(ModBlocks.BLACK_COMPRESSED_WOOL);
+
+
                         entries.add(ModItems.FALLIUM_KEY);
                         entries.add(ModItems.FALLIUM_PEBBLES);
                         entries.add(ModItems.FALLIUM_PLATING);
                         entries.add(ModItems.ASYSTOLE_BLOOM);
                         entries.add(ModItems.ELIXIR_BOTTLE);
+                        entries.add(ModItems.WATER_ELIXIR);
 
                     }).build());
 

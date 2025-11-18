@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fallium_pebbles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "eschaton:fallium_pebbles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "eschaton:fallium_plating"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fallium_pebbles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "eschaton:fallium_plating"
+    ]
+  }
+}

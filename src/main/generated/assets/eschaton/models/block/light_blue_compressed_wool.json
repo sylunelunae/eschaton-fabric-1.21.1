@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "eschaton:block/light_blue_compressed_wool"
+  }
+}

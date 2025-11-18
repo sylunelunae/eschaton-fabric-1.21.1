@@ -1,0 +1,12 @@
+{
+  "values": [
+    "eschaton:lamp_block",
+    "eschaton:soul_lamp_block",
+    "eschaton:amethyst_lamp_block",
+    "eschaton:redstone_powered_lamp_block",
+    "eschaton:amethyst_lantern",
+    "eschaton:redstone_powered_lantern",
+    "eschaton:crimson_shroom_lamp_block",
+    "eschaton:warped_shroom_lamp_block"
+  ]
+}
