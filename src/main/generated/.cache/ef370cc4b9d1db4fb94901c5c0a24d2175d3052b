@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-18T11:52:11.8625886	Eschaton/Recipes
+// 1.21.1	2025-11-18T19:07:13.9620789	Eschaton/Recipes
 83f206326cec28569b003ee348e4d55140c4195a data\eschaton\advancement\recipes\misc\elixir_bottle.json
 bdb012cf4334c15fb46cb7e22cd95306f65d1a07 data\eschaton\recipe\redstone_powered_lamp_block.json
 c5e5a53a4d62cd0310ec86ecc60ad1d955240333 data\eschaton\advancement\recipes\misc\soul_lamp_block.json
@@ -9,8 +9,8 @@ e3d241057dccb978ecedcc9e9c82ade6a1372941 data\eschaton\recipe\amethyst_lamp_bloc
 cebe74b2eac2602f30abb1939d27d331fba520bc data\eschaton\recipe\warped_shroom_lamp_block.json
 ae36a23908578f29e312ebd078c4b5a15b37ba9b data\eschaton\recipe\amethyst_lantern.json
 a8530cf429854acbaf042ebb385ea41e094d3148 data\eschaton\advancement\recipes\misc\warped_shroom_lamp_block.json
-422c6215e517385875de50244fa23f69c2770e57 data\eschaton\advancement\recipes\misc\amethyst_lantern.json
 1cd83aa44fb783df73231c4bf0129ceef22c7f7c data\eschaton\advancement\recipes\misc\amethyst_lamp_block.json
+422c6215e517385875de50244fa23f69c2770e57 data\eschaton\advancement\recipes\misc\amethyst_lantern.json
 47dd62c9fe596537fe1e0025eb55f27eaa733de9 data\eschaton\advancement\recipes\misc\crimson_shroom_lamp_block.json
 cb4e9441c5cee9650fa070d220b95b9a5d5a75fb data\eschaton\recipe\crimson_shroom_lamp_block.json
 50564e3d9d04fbb5e2be701364da354e76625f2f data\eschaton\advancement\recipes\misc\redstone_powered_lamp_block.json

@@ -44,6 +44,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_COMPRESSED_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_COMPRESSED_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_COMPRESSED_WOOL);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_END_STONE);
     }
 
     @Override

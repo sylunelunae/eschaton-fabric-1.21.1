@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "eschaton:block/end_stone_pillar", "x": 90, "y": 90 },
+    "axis=y": { "model": "eschaton:block/end_stone_pillar" },
+    "axis=z": { "model": "eschaton:block/end_stone_pillar", "x": 90 }
+  }
+}

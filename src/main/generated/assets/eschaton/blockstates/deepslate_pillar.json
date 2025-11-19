@@ -1,7 +1,7 @@
 {
   "variants": {
-    "": {
-      "model": "eschaton:block/deepslate_pillar"
-    }
+    "axis=x": { "model": "eschaton:block/deepslate_pillar", "x": 90, "y": 90 },
+    "axis=y": { "model": "eschaton:block/deepslate_pillar" },
+    "axis=z": { "model": "eschaton:block/deepslate_pillar", "x": 90 }
   }
 }

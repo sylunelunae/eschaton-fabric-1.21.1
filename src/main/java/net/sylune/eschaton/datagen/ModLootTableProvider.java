@@ -58,7 +58,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LIGHT_GRAY_COMPRESSED_WOOL);
         addDrop(ModBlocks.BLACK_COMPRESSED_WOOL);
 
-        // Only this one — REMOVE the other
+        addDrop(ModBlocks.CHISELED_END_STONE);
+
         addDrop(ModBlocks.FALLIUM_ORE_BLOCK,
                 oreDrops(ModBlocks.FALLIUM_ORE_BLOCK, ModItems.FALLIUM_PEBBLES));
     }

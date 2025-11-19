@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "eschaton:block/end_stone_pillar_top",
+    "side": "eschaton:block/end_stone_pillar_side",
+    "top": "eschaton:block/end_stone_pillar_top"
+  }
+}

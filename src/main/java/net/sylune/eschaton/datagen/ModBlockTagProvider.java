@@ -45,8 +45,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROWN_COMPRESSED_WOOL)
                 .add(ModBlocks.GRAY_COMPRESSED_WOOL)
                 .add(ModBlocks.LIGHT_GRAY_COMPRESSED_WOOL)
-                .add(ModBlocks.BLACK_COMPRESSED_WOOL);
+                .add(ModBlocks.BLACK_COMPRESSED_WOOL)
 
+                .add(ModBlocks.CHISELED_END_STONE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.LAMP_BLOCK)

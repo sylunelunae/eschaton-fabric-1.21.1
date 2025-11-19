@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "W": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:magenta_wool"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "eschaton:white_compressed_wool"
+    "id": "eschaton:magenta_compressed_wool"
   }
 }

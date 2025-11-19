@@ -33,6 +33,8 @@ public class ModBlocks {
     public static Block DEEPSLATE_PILLAR;
     public static Block MOSSY_COBBLED_DEEPSLATE;
 
+    public static Block END_STONE_PILLAR;
+
     public static Block AMETHYST_LANTERN;
     public static Block REDSTONE_POWERED_LANTERN;
 
@@ -52,79 +54,109 @@ public class ModBlocks {
     public static Block BLACK_COMPRESSED_WOOL;
     public static Block GRAY_COMPRESSED_WOOL;
     public static Block LIGHT_GRAY_COMPRESSED_WOOL;
+    public static Block CHISELED_END_STONE;
+    public static Block CRACKED_END_STONE_BRICKS;
+    public static Block POLISHED_END_STONE;
 
     public static void registerModBlocks() {
         Eschaton.LOGGER.info("Registering Mod Blocks for " + Eschaton.MOD_ID);
 
+        POLISHED_END_STONE = registerBlock("polished_end_stone",
+                new Block(AbstractBlock.Settings.create()
+                        .strength(3f)
+                        .requiresTool()
+                        .sounds(BlockSoundGroup.STONE)));
+
+        CRACKED_END_STONE_BRICKS = registerBlock("cracked_end_stone_bricks",
+                new Block(AbstractBlock.Settings.create()
+                        .strength(3f)
+                        .requiresTool()
+                        .sounds(BlockSoundGroup.STONE)));
+
+        CHISELED_END_STONE = registerBlock("chiseled_end_stone",
+                new Block(AbstractBlock.Settings.create()
+                        .strength(3f)
+                        .requiresTool()
+                        .sounds(BlockSoundGroup.STONE)));
+
+        END_STONE_PILLAR = registerBlock("end_stone_pillar",
+                new PillarBlock(AbstractBlock.Settings.create()
+                        .strength(3f)
+                        .requiresTool()
+                        .sounds(BlockSoundGroup.STONE)));
+
+
+
         WHITE_COMPRESSED_WOOL = registerBlock("white_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
 
         PINK_COMPRESSED_WOOL = registerBlock("pink_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         RED_COMPRESSED_WOOL = registerBlock("red_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         ORANGE_COMPRESSED_WOOL = registerBlock("orange_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         YELLOW_COMPRESSED_WOOL = registerBlock("yellow_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         GREEN_COMPRESSED_WOOL = registerBlock("green_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         LIME_COMPRESSED_WOOL = registerBlock("lime_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         LIGHT_BLUE_COMPRESSED_WOOL = registerBlock("light_blue_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         BLUE_COMPRESSED_WOOL = registerBlock("blue_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         CYAN_COMPRESSED_WOOL = registerBlock("cyan_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         MAGENTA_COMPRESSED_WOOL = registerBlock("magenta_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
         BROWN_COMPRESSED_WOOL = registerBlock("brown_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
 
         PURPLE_COMPRESSED_WOOL = registerBlock("purple_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
 
         BLACK_COMPRESSED_WOOL = registerBlock("black_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
 
         GRAY_COMPRESSED_WOOL = registerBlock("gray_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
 
         LIGHT_GRAY_COMPRESSED_WOOL = registerBlock("light_gray_compressed_wool",
                 new PillarBlock(AbstractBlock.Settings.create()
-                        .strength(1.5f)
+                        .strength(1.25f)
                         .sounds(BlockSoundGroup.WOOL)));
+
 
 
         DEEPSLATE_PILLAR = registerBlock("deepslate_pillar",
@@ -158,12 +190,17 @@ public class ModBlocks {
                         .luminance(state -> 3)
                         .nonOpaque()));
 
+
+
         FALLIUM_ORE_BLOCK = registerBlock("fallium_ore_block",
                 new ExperienceDroppingBlock(UniformIntProvider.create(5, 7),
                         AbstractBlock.Settings.create()
                                 .strength(3.5f)
                                 .sounds(BlockSoundGroup.STONE)
                                 .requiresTool()));
+
+
+
 
         LAMP_BLOCK = registerBlock("lamp_block",
                 new Block(AbstractBlock.Settings.create()
@@ -188,7 +225,7 @@ public class ModBlocks {
 
         AMETHYST_LANTERN = registerBlock("amethyst_lantern",
                 new LanternBlock(AbstractBlock.Settings.create()
-                        .strength(2f)
+                        .strength(1.8f)
                         .sounds(BlockSoundGroup.LANTERN)
                         .luminance(state -> 14)
                         .requiresTool()));
@@ -196,7 +233,7 @@ public class ModBlocks {
         REDSTONE_POWERED_LANTERN = registerBlock("redstone_powered_lantern",
                 new LanternBlock(AbstractBlock.Settings.create()
                         .nonOpaque()
-                        .strength(2f)
+                        .strength(1.8f)
                         .sounds(BlockSoundGroup.LANTERN)
                         .luminance(state -> 12)
                         .solid()

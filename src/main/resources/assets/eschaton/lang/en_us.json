@@ -36,6 +36,10 @@
   "block.eschaton.green_compressed_wool": "Compressed Green Wool",
   "block.eschaton.red_compressed_wool": "Compressed Red Wool",
   "block.eschaton.black_compressed_wool": "Compressed Black Wool",
+  "block.eschaton.end_stone_pillar": "End Stone Pillar",
+  "block.eschaton.chiseled_end_stone": "Chiseled End Stone",
+  "block.eschaton.cracked_end_stone_bricks": "Cracked End Stone Bricks",
+  "block.eschaton.polished_end_stone": "Polished End Stone",
 
   "death.attack.sculk_bite": "%1$s was devoured by sculk",
 

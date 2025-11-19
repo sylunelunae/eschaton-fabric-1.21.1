@@ -29,24 +29,28 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MOSSY_COBBLED_DEEPSLATE);
                         entries.add(ModBlocks.MOSSY_CHISELED_DEEPSLATE);
                         entries.add(ModBlocks.DEEPSLATE_PILLAR);
+                        entries.add(ModBlocks.END_STONE_PILLAR);
+                        entries.add(ModBlocks.CHISELED_END_STONE);
+                        entries.add(ModBlocks.CRACKED_END_STONE_BRICKS);
+                        entries.add(ModBlocks.POLISHED_END_STONE);
                         entries.add(ModBlocks.FALLIUM_ORE_BLOCK);
 
                         entries.add(ModBlocks.WHITE_COMPRESSED_WOOL);
-                        entries .add(ModBlocks.RED_COMPRESSED_WOOL);
-                        entries   .add(ModBlocks.ORANGE_COMPRESSED_WOOL);
-                        entries .add(ModBlocks.YELLOW_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.GREEN_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.LIME_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.LIGHT_BLUE_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.BLUE_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.CYAN_COMPRESSED_WOOL);
-                        entries .add(ModBlocks.PURPLE_COMPRESSED_WOOL);
-                        entries .add(ModBlocks.MAGENTA_COMPRESSED_WOOL);
-                        entries .add(ModBlocks.PINK_COMPRESSED_WOOL);
-                        entries .add(ModBlocks.BROWN_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.GRAY_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.LIGHT_GRAY_COMPRESSED_WOOL);
-                        entries  .add(ModBlocks.BLACK_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.RED_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.ORANGE_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.YELLOW_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.GREEN_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.LIME_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.LIGHT_BLUE_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.BLUE_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.CYAN_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.PURPLE_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.MAGENTA_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.PINK_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.BROWN_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.GRAY_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.LIGHT_GRAY_COMPRESSED_WOOL);
+                        entries.add(ModBlocks.BLACK_COMPRESSED_WOOL);
 
 
                         entries.add(ModItems.FALLIUM_KEY);

@@ -29,6 +29,10 @@
     "eschaton:brown_compressed_wool",
     "eschaton:gray_compressed_wool",
     "eschaton:light_gray_compressed_wool",
-    "eschaton:black_compressed_wool"
+    "eschaton:black_compressed_wool",
+    "eschaton:chiseled_end_stone",
+    "eschaton:end_stone_pillar",
+    "eschaton:polished_end_stone",
+    "eschaton:cracked_end_stone_bricks"
   ]
 }
