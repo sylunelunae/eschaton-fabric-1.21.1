@@ -14,7 +14,7 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.BlockView;
 import net.sylune.eschaton.Eschaton;
-import net.sylune.eschaton.block.custom.SculkJawBlock;
+import net.sylune.eschaton.block.SculkJawBlock;
 
 public class ModBlocks {
     public static Block LAMP_BLOCK;
@@ -54,12 +54,27 @@ public class ModBlocks {
     public static Block BLACK_COMPRESSED_WOOL;
     public static Block GRAY_COMPRESSED_WOOL;
     public static Block LIGHT_GRAY_COMPRESSED_WOOL;
+
     public static Block CHISELED_END_STONE;
     public static Block CRACKED_END_STONE_BRICKS;
     public static Block POLISHED_END_STONE;
+    public static Block TWILIGHT_PURPUR;
+    public static Block CHISELED_PURPUR;
 
     public static void registerModBlocks() {
         Eschaton.LOGGER.info("Registering Mod Blocks for " + Eschaton.MOD_ID);
+
+        CHISELED_PURPUR = registerBlock("chiseled_purpur",
+                new Block(AbstractBlock.Settings.create()
+                        .strength(3f)
+                        .requiresTool()
+                        .sounds(BlockSoundGroup.STONE)));
+
+        TWILIGHT_PURPUR = registerBlock("twilight_purpur",
+                new Block(AbstractBlock.Settings.create()
+                        .strength(3f)
+                        .requiresTool()
+                        .sounds(BlockSoundGroup.STONE)));
 
         POLISHED_END_STONE = registerBlock("polished_end_stone",
                 new Block(AbstractBlock.Settings.create()
@@ -203,11 +218,11 @@ public class ModBlocks {
 
 
         LAMP_BLOCK = registerBlock("lamp_block",
-                new Block(AbstractBlock.Settings.create()
+                new LampBlock(AbstractBlock.Settings.create()
                         .strength(3f)
                         .sounds(BlockSoundGroup.LANTERN)
-                        .luminance(state -> 15)
-                        .requiresTool()));
+                        .requiresTool()
+                        .luminance(state -> 13)));
 
         SOUL_LAMP_BLOCK = registerBlock("soul_lamp_block",
                 new Block(AbstractBlock.Settings.create()
@@ -302,6 +317,8 @@ public class ModBlocks {
             entries.add(AMETHYST_LANTERN);
             entries.add(WARPED_SHROOM_LAMP_BLOCK);
             entries.add(CRIMSON_SHROOM_LAMP_BLOCK);
+            entries.add(REDSTONE_POWERED_LAMP_BLOCK);
+            entries.add(REDSTONE_POWERED_LANTERN);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
@@ -313,7 +330,10 @@ public class ModBlocks {
             entries.add(MOSSY_DEEPSLATE_BRICKS);
             entries.add(MOSSY_CHISELED_DEEPSLATE);
             entries.add(DEEPSLATE_PILLAR);
-            entries.add(MOSSY_COBBLED_DEEPSLATE);
+            entries.add(END_STONE_PILLAR);
+            entries.add(CHISELED_END_STONE);
+            entries.add(CRACKED_END_STONE_BRICKS);
+            entries.add(POLISHED_END_STONE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {

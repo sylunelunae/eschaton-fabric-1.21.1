@@ -1,0 +1,7 @@
+{
+  "lamp_toggle": {
+    "sounds": [
+      { "name": "eschaton:lamp_toggle" }
+    ]
+  }
+}

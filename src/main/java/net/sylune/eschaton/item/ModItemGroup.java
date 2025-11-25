@@ -34,6 +34,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CRACKED_END_STONE_BRICKS);
                         entries.add(ModBlocks.POLISHED_END_STONE);
                         entries.add(ModBlocks.FALLIUM_ORE_BLOCK);
+                        entries.add(ModBlocks.CHISELED_PURPUR);
+                        entries.add(ModBlocks.TWILIGHT_PURPUR);
 
                         entries.add(ModBlocks.WHITE_COMPRESSED_WOOL);
                         entries.add(ModBlocks.RED_COMPRESSED_WOOL);
