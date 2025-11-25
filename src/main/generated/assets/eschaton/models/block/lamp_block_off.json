@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "eschaton:block/lamp_block_bottom_off",
-    "side": "eschaton:block/lamp_block_side_off",
-    "top": "eschaton:block/lamp_block_top_off"
+    "bottom": "eschaton:block/lamp_block_off_bottom",
+    "side": "eschaton:block/lamp_block_off_side",
+    "top": "eschaton:block/lamp_block_off_top"
   }
 }
